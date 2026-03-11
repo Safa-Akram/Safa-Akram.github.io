@@ -145,7 +145,11 @@ li {
 }
 
 /* Project Cards */
-.project {
+#projects {
+    margin-bottom: 40px;
+}
+
+#projects .project {
     background: #1e293b;
     padding: 25px;
     margin-bottom: 25px;
@@ -153,9 +157,9 @@ li {
     transition: 0.3s ease;
 }
 
-.project:hover {
+#projects .project:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 
 /* Footer */
@@ -212,4 +216,5 @@ footer {
 #contact a:hover {
     color: #4f46e5;
     text-decoration: underline;
+
 }
